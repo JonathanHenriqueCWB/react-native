@@ -5,9 +5,11 @@ export default StyleSheet.create({
         backgroundColor: '#E0FFFF',
         flexGrow: 1,
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
+        padding: 20,
     },
     txtG: {
-        fontSize: 15,
+        fontSize: 25,
+        textAlign: 'center'
     }
 })
