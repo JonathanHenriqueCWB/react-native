@@ -11,6 +11,7 @@ import {Comp1, Comp2} from './components/Multi';
 import MimMax from './components/MinMax';
 import MinMax from './components/MinMax';
 import Aleatorio from './components/Aleatorio';
+import Titulo from './components/TItulo';
 
 
 
@@ -22,8 +23,9 @@ function App() {
       <Comp></Comp>
       <Comp1></Comp1>
       <Comp2></Comp2>
-      <MinMax min="3" max="20"/>*/}
-      <Aleatorio min={1} max={60} />
+      <MinMax min="3" max="20"/>
+      <Aleatorio min={1} max={60} /> */}
+      <Titulo principal="Cadastro" secundario="Tela de cadastro" />
     </View>
   );
 }
