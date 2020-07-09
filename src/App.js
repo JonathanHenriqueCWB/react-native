@@ -1,5 +1,8 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {Text, View, StyleSheet} from 'react-native';
+
+//Import folha de estilo
+import Estilo from './style/estilo';
 
 //Componentes default
 import Primeiro from './components/Primeiro';
@@ -10,7 +13,7 @@ import {Comp1, Comp2} from './components/Multi';
 
 function App() {
   return (
-    <View>
+    <View style={Estilo.Container}>
       <Text>App Component</Text>
       <Primeiro></Primeiro>
       <Comp></Comp>
@@ -21,3 +24,13 @@ function App() {
   );
 }
 export default App;
+
+//Varivavel de estilo
+const style = StyleSheet.create({
+  Container: {
+    backgroundColor: '#B0E0E6',
+    flexGrow: 1,
+    justifyContent: "center",
+    alignItems: "center"
+  }
+});
