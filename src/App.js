@@ -10,6 +10,7 @@ import Comp from './components/Multi';
 import {Comp1, Comp2} from './components/Multi';
 import MimMax from './components/MinMax';
 import MinMax from './components/MinMax';
+import Aleatorio from './components/Aleatorio';
 
 
 
@@ -20,8 +21,9 @@ function App() {
       <Primeiro></Primeiro>
       <Comp></Comp>
       <Comp1></Comp1>
-      <Comp2></Comp2>*/}
-      <MinMax min="3" max="20"/>
+      <Comp2></Comp2>
+      <MinMax min="3" max="20"/>*/}
+      <Aleatorio min={1} max={60} />
     </View>
   );
 }
