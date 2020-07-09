@@ -12,20 +12,24 @@ import MimMax from './components/MinMax';
 import MinMax from './components/MinMax';
 import Aleatorio from './components/Aleatorio';
 import Titulo from './components/TItulo';
+import Btn from './components/Botao';
 
 
 
 function App() {
   return (
     <View style={Estilo.Container}>
-      {/*<Text>App Component</Text>
+      {/*
+      <Text>App Component</Text>
       <Primeiro></Primeiro>
       <Comp></Comp>
       <Comp1></Comp1>
       <Comp2></Comp2>
       <MinMax min="3" max="20"/>
-      <Aleatorio min={1} max={60} /> */}
-      <Titulo principal="Cadastro" secundario="Tela de cadastro" />
+      <Aleatorio min={1} max={60} />
+      <Titulo principal="Cadastro" secundario="Tela de cadastro" /> 
+      */}
+      <Btn />
     </View>
   );
 }
