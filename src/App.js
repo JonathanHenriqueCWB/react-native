@@ -13,7 +13,7 @@ import MinMax from './components/MinMax';
 import Aleatorio from './components/Aleatorio';
 import Titulo from './components/TItulo';
 import Btn from './components/Botao';
-
+import Contador from './components/Contador';
 
 
 function App() {
@@ -28,8 +28,9 @@ function App() {
       <MinMax min="3" max="20"/>
       <Aleatorio min={1} max={60} />
       <Titulo principal="Cadastro" secundario="Tela de cadastro" /> 
-      */}
       <Btn />
+      */}
+      <Contador inicial={10} passo={5}/>
     </View>
   );
 }
