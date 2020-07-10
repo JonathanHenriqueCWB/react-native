@@ -15,6 +15,7 @@ import Titulo from './components/TItulo';
 import Btn from './components/Botao';
 import Contador from './components/Contador';
 import TesteSnippet from './components/TesteSnippet';
+import Pai from './components/direta/Pai';
 
 
 function App() {
@@ -31,8 +32,9 @@ function App() {
       <Titulo principal="Cadastro" secundario="Tela de cadastro" /> 
       <Btn />
     <Contador inicial={10} passo={5}/>
-    */}
     <TesteSnippet />
+    */}
+    <Pai />
     </View>
   );
 }
