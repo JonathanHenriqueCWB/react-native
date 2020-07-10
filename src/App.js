@@ -15,7 +15,9 @@ import Titulo from './components/TItulo';
 import Btn from './components/Botao';
 import Contador from './components/Contador';
 import TesteSnippet from './components/TesteSnippet';
-import Pai from './components/direta/Pai';
+//import Pai from './components/direta/Pai';
+import Pai from './components/indireta/Pai';
+
 
 
 function App() {
@@ -33,6 +35,7 @@ function App() {
       <Btn />
     <Contador inicial={10} passo={5}/>
     <TesteSnippet />
+    <Pai />
     */}
     <Pai />
     </View>
