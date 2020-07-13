@@ -1,26 +1,27 @@
 import React from 'react';
-import {Text, View, StyleSheet, SafeAreaView} from 'react-native';
+import {View, StyleSheet, SafeAreaView} from 'react-native';
 
 //Import folha de estilo
 import Estilo from './style/estilo';
 //Componentes default
-import Primeiro from './components/Primeiro';
-import Comp from './components/Multi';
+//import Primeiro from './components/Primeiro';
+//import Comp from './components/Multi';
 //Componentes não default, normalmente utilizado em classe multicomponentes
-import {Comp1, Comp2} from './components/Multi';
-import MimMax from './components/MinMax';
-import MinMax from './components/MinMax';
-import Aleatorio from './components/Aleatorio';
-import Titulo from './components/TItulo';
-import Btn from './components/Botao';
-import Contador from './components/Contador';
-import TesteSnippet from './components/TesteSnippet';
+//import {Comp1, Comp2} from './components/Multi';
+//import MimMax from './components/MinMax';
+//import MinMax from './components/MinMax';
+//import Aleatorio from './components/Aleatorio';
+//import Titulo from './components/TItulo';
+//import Btn from './components/Botao';
+//import Contador from './components/Contador';
+//import TesteSnippet from './components/TesteSnippet';
 //import Pai from './components/direta/Pai';
-import Pai from './components/indireta/Pai';
-import ContadorV2 from './components/contador/ContadorV2';
-import ParImpar from './components/ParImpar';
-
-
+//import Pai from './components/indireta/Pai';
+//import ContadorV2 from './components/contador/ContadorV2';
+//import ParImpar from './components/ParImpar';
+//import Pai from './components/relacao/Pai';
+import Familia from './components/relacao/Familia';
+import Membro from './components/relacao/Membro';
 
 function App() {
   return (
@@ -40,8 +41,13 @@ function App() {
       <Pai />
       <Pai />
       <ContadorV2 />
-      */}
       <ParImpar num={10}/>
+      <Pai></Pai>
+    */}
+      <Familia>
+        <Membro nome="Anderson" sobrenome="Carvalho"/>
+        <Membro nome="Bianca" sobrenome="Martins" />
+      </Familia>
     </SafeAreaView>
   );
 }
