@@ -24,7 +24,8 @@ import Estilo from './style/estilo';
 //import Membro from './components/relacao/Membro';
 //import UsuarioLogado from './components/UsuarioLogado';
 //import ListaProdutos from './components/produtos/LIstaProdutos';
-import ListaProdutosV2 from './components/produtos/LIstaProdutosV2';
+// import ListaProdutosV2 from './components/produtos/LIstaProdutosV2';
+import Digite from './components/DigiteSeuNome';
 
 function App() {
   return (
@@ -52,8 +53,9 @@ function App() {
       </Familia>
       <UsuarioLogado usuario={{nome:'Guilherme', email:'gui@email.com'}}/>
       <ListaProdutos />
-    */}
       <ListaProdutosV2 />
+    */}
+      <Digite />
     </SafeAreaView>
   );
 }
