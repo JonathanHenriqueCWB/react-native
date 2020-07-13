@@ -23,7 +23,8 @@ import Estilo from './style/estilo';
 //import Familia from './components/relacao/Familia';
 //import Membro from './components/relacao/Membro';
 //import UsuarioLogado from './components/UsuarioLogado';
-import ListaProdutos from './components/produtos/LIstaProdutos';
+//import ListaProdutos from './components/produtos/LIstaProdutos';
+import ListaProdutosV2 from './components/produtos/LIstaProdutosV2';
 
 function App() {
   return (
@@ -50,8 +51,9 @@ function App() {
         <Membro nome="Bianca" sobrenome="Martins" />
       </Familia>
       <UsuarioLogado usuario={{nome:'Guilherme', email:'gui@email.com'}}/>
-    */}
       <ListaProdutos />
+    */}
+      <ListaProdutosV2 />
     </SafeAreaView>
   );
 }
