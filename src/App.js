@@ -20,8 +20,9 @@ import Estilo from './style/estilo';
 //import ContadorV2 from './components/contador/ContadorV2';
 //import ParImpar from './components/ParImpar';
 //import Pai from './components/relacao/Pai';
-import Familia from './components/relacao/Familia';
-import Membro from './components/relacao/Membro';
+//import Familia from './components/relacao/Familia';
+//import Membro from './components/relacao/Membro';
+import UsuarioLogado from './components/UsuarioLogado';
 
 function App() {
   return (
@@ -43,11 +44,12 @@ function App() {
       <ContadorV2 />
       <ParImpar num={10}/>
       <Pai></Pai>
-    */}
       <Familia>
         <Membro nome="Anderson" sobrenome="Carvalho"/>
         <Membro nome="Bianca" sobrenome="Martins" />
       </Familia>
+    */}
+      <UsuarioLogado usuario={{nome:'Guilherme', email:'gui@email.com'}}/>
     </SafeAreaView>
   );
 }
