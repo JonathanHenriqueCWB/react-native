@@ -25,7 +25,8 @@ import Estilo from './style/estilo';
 //import UsuarioLogado from './components/UsuarioLogado';
 //import ListaProdutos from './components/produtos/LIstaProdutos';
 // import ListaProdutosV2 from './components/produtos/LIstaProdutosV2';
-import Digite from './components/DigiteSeuNome';
+// import Digite from './components/DigiteSeuNome';
+import Quadrado from './components/layout/Quadrado';
 
 function App() {
   return (
@@ -48,14 +49,16 @@ function App() {
       <ParImpar num={10}/>
       <Pai></Pai>
       <Familia>
-        <Membro nome="Anderson" sobrenome="Carvalho"/>
-        <Membro nome="Bianca" sobrenome="Martins" />
+      <Membro nome="Anderson" sobrenome="Carvalho"/>
+      <Membro nome="Bianca" sobrenome="Martins" />
       </Familia>
       <UsuarioLogado usuario={{nome:'Guilherme', email:'gui@email.com'}}/>
       <ListaProdutos />
       <ListaProdutosV2 />
-    */}
       <Digite />
+    */}
+      <Quadrado />
+      <Quadrado cor='#00f'/>
     </SafeAreaView>
   );
 }
