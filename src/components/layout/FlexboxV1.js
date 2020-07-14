@@ -17,6 +17,7 @@ export default props => {
 const estilo = StyleSheet.create({
     Flexv1: {
         backgroundColor: '#666',
+        
         flex: 1, // Correspondente a coluna inteira
         justifyContent: "space-between" // Alinhamento dos elementos dentro dessa coluna
     }

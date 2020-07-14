@@ -16,9 +16,10 @@ export default props => {
 const estilo = StyleSheet.create({
     flex: {
         width: '100%',
+        backgroundColor: '#000',
+        
         alignItems: "flex-end", // Alinhamento dos itens na linha 
         justifyContent: "space-between",
-        backgroundColor: '#000'
     }
 })
 

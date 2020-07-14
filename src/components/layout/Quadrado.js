@@ -4,7 +4,8 @@ import { Text, View, StyleSheet } from 'react-native';
 export default props => {
 
     const corPadrao = '#000';
-    const [lado, base] = [100, 100];
+    const base = 100;
+    const lado = props.lado || 100;
 
     return(
         <View style={{
