@@ -26,7 +26,7 @@ import Estilo from './style/estilo';
 //import ListaProdutos from './components/produtos/LIstaProdutos';
 // import ListaProdutosV2 from './components/produtos/LIstaProdutosV2';
 // import Digite from './components/DigiteSeuNome';
-import Quadrado from './components/layout/Quadrado';
+import Flexbox from './components/layout/FlexboxV1';
 
 function App() {
   return (
@@ -57,8 +57,7 @@ function App() {
       <ListaProdutosV2 />
       <Digite />
     */}
-      <Quadrado />
-      <Quadrado cor='#00f'/>
+      <Flexbox />
     </SafeAreaView>
   );
 }
