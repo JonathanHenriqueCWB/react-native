@@ -18,6 +18,8 @@ const estilo = StyleSheet.create({
     Flexv1: {
         backgroundColor: '#666',
         flex: 1, // Correspondente a coluna inteira
-        justifyContent: "center" // Alinhamento dos elementos dentro dessa coluna
+        justifyContent: "space-between" // Alinhamento dos elementos dentro dessa coluna
     }
 })
+
+// justifyContent - utilizado para possicionar os elementos em coluna

@@ -26,7 +26,8 @@ import Estilo from './style/estilo';
 //import ListaProdutos from './components/produtos/LIstaProdutos';
 // import ListaProdutosV2 from './components/produtos/LIstaProdutosV2';
 // import Digite from './components/DigiteSeuNome';
-import Flexbox from './components/layout/FlexboxV1';
+// import FlexboxV1 from './components/layout/FlexboxV1';
+import FlexboxV2 from './components/layout/FlexboxV2';
 
 function App() {
   return (
@@ -56,8 +57,9 @@ function App() {
       <ListaProdutos />
       <ListaProdutosV2 />
       <Digite />
+      <FlexboxV1 />
     */}
-      <Flexbox />
+      <FlexboxV2 />
     </SafeAreaView>
   );
 }
