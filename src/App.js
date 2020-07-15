@@ -65,7 +65,7 @@ function App() {
       <FlexboxV3 />
       <FLexboxV4 />
     */}
-    <Mega />
+    <Mega qtdNumeros={7}/>
     </SafeAreaView>
   );
 }
