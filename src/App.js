@@ -29,7 +29,8 @@ import Estilo from './style/estilo';
 // import FlexboxV1 from './components/layout/FlexboxV1';
 // import FlexboxV2 from './components/layout/FlexboxV2';
 // import FlexboxV3 from './components/layout/FlexboxV3';
-import FLexboxV4 from  './components/layout/FlexboxV4';
+// import FLexboxV4 from  './components/layout/FlexboxV4';
+import Mega from './components/mega/Mega';
 
 function App() {
   return (
@@ -62,8 +63,9 @@ function App() {
       <FlexboxV1 />
       <FlexboxV2 />
       <FlexboxV3 />
-    */}
       <FLexboxV4 />
+    */}
+    <Mega />
     </SafeAreaView>
   );
 }
