@@ -28,7 +28,8 @@ import Estilo from './style/estilo';
 // import Digite from './components/DigiteSeuNome';
 // import FlexboxV1 from './components/layout/FlexboxV1';
 // import FlexboxV2 from './components/layout/FlexboxV2';
-import FlexboxV3 from './components/layout/FlexboxV3';
+// import FlexboxV3 from './components/layout/FlexboxV3';
+import FLexboxV4 from  './components/layout/FlexboxV4';
 
 function App() {
   return (
@@ -60,8 +61,9 @@ function App() {
       <Digite />
       <FlexboxV1 />
       <FlexboxV2 />
-    */}
       <FlexboxV3 />
+    */}
+      <FLexboxV4 />
     </SafeAreaView>
   );
 }
